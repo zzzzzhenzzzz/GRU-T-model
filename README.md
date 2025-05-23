@@ -1,1 +1,7 @@
-# GRU-T-model
+# GRU-Transformer Hybrid Model for GNSS/INS Integration in Orchard Environments
+
+Here you can find deep learning architecture code for the GRU-Transformer hybrid model (GRU-T).
+
+## Abstract
+
+Precision positioning in orchards relies on Global Navigation Satellite System and Inertial Navigation System (GNSS/INS) integration. However, dense foliage often causes GNSS blockages, degrading accuracy and robustness. This paper proposes an optimized GNSS/INS integrated navigation method based on a hybrid Gated Recurrent Unit (GRU)-Transformer model (GRU-T). The GRU-Transformer hybrid dynamically adjusts the process noise covariance matrix within an error-state Extended Kalman Filter (ES-EKF) framework to address non-stationary noise and signal outages. Forest field tests demonstrate that GRU-T significantly improves positioning accuracy. Compared with the conventional ES-EKF, the proposed method achieves reductions in position root-mean-square error (PRMSE) by 48.74% (East), 41.94% (North), and 61.59% (Up), and reductions in velocity root-mean-square error (VRMSE) by 71.5% (East), 39.31% (North), and 56.48% (Up) in the East–North–Up (ENU) coordinate frame. The GRU-T model effectively captures both short- and long-term temporal dependencies and meets real-time, high-frequency sampling requirements. These results indicate that the GRU-Transformer hybrid model enhances the accuracy and robustness of GNSS/INS navigation in complex orchard environments, offering technical support for high-precision positioning in intelligent agricultural machinery systems.
